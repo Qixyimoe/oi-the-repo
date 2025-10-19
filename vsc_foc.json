@@ -1,0 +1,9 @@
+{
+    "fastolympiccoding.font": "Fira Code",
+    "fastolympiccoding.runSettings": {
+        ".cpp": {
+            "compileCommand": "g++ -O2 -static -lm -Wall -Wextra -std=c++23 ${path:${file}} -o ${path:${fileDirname}/${fileBasenameNoExtension}${exeExtname}}",
+            "runCommand": "${path:${fileDirname}/${fileBasenameNoExtension}${exeExtname}}"
+        }
+    }
+}
